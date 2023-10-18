@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class WhileLoops {
     public static void main(String[] args) {
-//        boolean t = 5<10;
-//        System.out.println(t);
-//        boolean f = 11<10;
-//        System.out.println(f);
-//        boolean a = 5<=5; // может быть двоное равенство
-//        System.out.println(a);
-//        boolean b = 5==5; // ставится двоное равенство потомучто просто равество уже делает присвоение
-//        System.out.println(b);
+        boolean t = 5 < 10;
+        System.out.println(t);
+        boolean f = 11 < 10;
+        System.out.println(f);
+        boolean a = 5 <= 5; // может быть двоное равенство
+        System.out.println(a);
+        boolean b = 5 == 5; // ставится двоное равенство потомучто просто равество уже делает присвоение
+        System.out.println(b);
 
 
 
@@ -20,14 +20,14 @@ public class WhileLoops {
 //
 //
 //        }
-
-        System.out.println("*****Добро пожаловать в сравнитель");
-        System.out.println("Ведите превое число a");
-        int a = new Scanner(System.in).nextInt();
-        System.out.println("Ведите второе число b");
-        int b = new Scanner(System.in).nextInt();
-        boolean t = a<b;
-        System.out.println(t);
+//
+//        System.out.println("*****Добро пожаловать в сравнитель");
+//        System.out.println("Ведите превое число a");
+//        int a = new Scanner(System.in).nextInt();
+//        System.out.println("Ведите второе число b");
+//        int b = new Scanner(System.in).nextInt();
+//        boolean t = a<b;
+//        System.out.println(t);
 
 //        System.out.println("******Добро пожаловать в цикл******");
 //        System.out.println("Введите превое число a");

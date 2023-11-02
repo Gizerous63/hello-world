@@ -16,5 +16,20 @@ public class ForLoops {
         for (int i = 15;i>=0;i = i - 3){
             System.out.println("Hello" + i);
         }
+
+        //ДОМАШНЕЕ ЗАДАНИЕ
+        for (int a = 1; a<=100; a++){
+            if (a % 2 == 0){
+                System.out.println("Уволен айтишник с id " + a);
+            }
+        }
+
+        int a = 2;
+        while (a<=100){
+            System.out.println("Уволен айтишник с id " + a);
+            a = a+2;
+        }
     }
+
+
 }

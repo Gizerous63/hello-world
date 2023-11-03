@@ -11,7 +11,7 @@ public class DoWhileLoops {
 
 //        System.out.println("Введи число 5");
 //        int value = new Scanner(System.in).nextInt();
-//        while (value!=5){
+//        while (value!=5){ // != означает неравно
 //            System.out.println("Введи число 5");
 //            value = new Scanner(System.in).nextInt();
 //        }

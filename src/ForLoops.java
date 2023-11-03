@@ -23,7 +23,7 @@ public class ForLoops {
                 System.out.println("Уволен айтишник с id " + a);
             }
         }
-
+// Тоже самое, но используя только цикл while
         int a = 2;
         while (a<=100){
             System.out.println("Уволен айтишник с id " + a);

@@ -17,8 +17,6 @@ public class WhileLoops {
 //        while (value<5){ // это условие цикла, тоесть до тех пок пока.....
 //            System.out.println("Hello");
 //            value = value+1; // для цикла задаем условия переменной, что с каждым циклом она на один больше
-//
-//
 //        }
 //
 //        System.out.println("*****Добро пожаловать в сравнитель");
@@ -80,7 +78,6 @@ public class WhileLoops {
         int ghoulTearsCount = 0;        //Слезы вурдалака
         int ravenBonesCount = 0;        //Кости ворона
         int dumplingsCount = 0;         //Пельмени(а почему, собственно нет? xD )
-
         boolean isContinue = true;
         while(isContinue) {
             System.out.println("Бросьте в котелок Жабьи глаза :");

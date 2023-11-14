@@ -59,6 +59,49 @@ public class Massiv {
         for (int i = 0; i < numbers.length; i++){
             System.out.println(numbers[i]);
         }
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        // Сгенерировать случайный вес 10 человек от 40 до 100 кг
+//        double[] weights = new double[10]; // допустим для пяти человек
+//        for (int i = 0; i < weights.length; i++){
+//           weights[i] = (new Random().nextDouble() * 60) + 40; // так как new Random().nextDouble() выдает от 0 до 1,
+//            // а нам нужно сгенерировать от 40 до 100, то 100 разбиваем на 60 и 40
+//        }
+//        for (int i = 0; i < weights.length; i++){
+//            System.out.println(weights[i]);
+//        }
+//        double middleWeight = 0;
+//        for (int i = 0; i < weights.length; i++){
+//            middleWeight += weights[i];
+//        }
+//        System.out.println("Средний вес: " + middleWeight / weights.length);
+//
+//
+//        int peopleCount = 0;
+//        for (int i = 0; i < weights.length; i++){
+//            if (weights[i] >= 60 && weights[i] <= 80){
+//                peopleCount++; // то тогда количество людей увеличивается
+//            }
+//        }
+//        System.out.println("Количество людей с весом от 60 до 80 кг:" + peopleCount);
+
+        //МОЖНО СОКРАТИТЬ ЗАКИНУВ ВСЕ В ОДИН ЦИКЛ
+        double[] weights = new double[10]; // допустим для десяти человек
+        double middleWeight = 0; // средний вес
+        int peopleCount = 0; // число людей с весом
+        for (int i = 0; i < weights.length; i++){
+            weights[i] = (new Random().nextDouble() * 60) + 40;
+            middleWeight += weights[i];
+            if (weights[i] >= 60 && weights[i] <= 80){
+                peopleCount++;
+            }
+            System.out.println(weights[i]);
+        }
+        System.out.println("Средний вес: " + middleWeight / weights.length);
+        System.out.println("Количество людей с весом от 60 до 80 кг:" + peopleCount);
+
+
+
+
 
 
 

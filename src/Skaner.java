@@ -1,6 +1,11 @@
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Skaner {
+    public Skaner(InputStream in) {
+
+    }
+
     public static void main(String[] args) {
 //        System.out.println("Введите свой вес(кг):"); //для ввода данных для формылы с консоли
 //        double weight = new Scanner(System.in).nextDouble(); // new обозначает создание нового объекта, класса
@@ -36,4 +41,6 @@ public class Skaner {
         int x = s.nextInt();
         System.out.println("Вы ввели " + x);
     }
+
+
 }

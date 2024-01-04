@@ -13,7 +13,7 @@ public class MetodiDva {
 //                    System.out.println("TRUE");
 //                }
 //                else {
-//                    System.out.println("FALSE");
+//                    System.out.println("FALSE"); это все внесли в метод
 //                }
 //            }
         //Написать программу, в которой пользователь вводит целое число.

@@ -3,16 +3,12 @@ import java.util.Scanner;
 public class Metod3 {// Создать базу данных библиотеки
     static String booksInfo = "";
 
-
     public static void main(String[] args) {
         while (true) {
             String name = inputBookName();
             int pageCount = inputPageCount();
             int priseBook = inputBookPrise();
-
             addBook(name, pageCount, priseBook);
-
-
             printInfo();
         }
     }

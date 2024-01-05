@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Metod3 {
+public class Metod3 {// Создать базу данных библиотеки
     static String booksInfo = "";
 
 
@@ -12,7 +12,7 @@ public class Metod3 {
 
             addBook(name, pageCount, priseBook);
 
-            //todo использовать новый метод тут
+
             printInfo();
         }
     }

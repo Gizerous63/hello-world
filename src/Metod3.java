@@ -8,11 +8,18 @@ public class Metod3 {
         while (true) {
             String name = inputBookName();
             int pageCount = inputPageCount();
-            addBook(name);
-            addBook(name, pageCount);
+            int priseBook = inputBookPrise();
+
+            addBook(name, pageCount, priseBook);
+
             //todo использовать новый метод тут
             printInfo();
         }
+    }
+
+    private static int inputBookPrise() {
+        System.out.println("Введите цену книги:");
+        return new Scanner(System.in).nextInt();
     }
 
     public static String inputBookName() {
@@ -26,11 +33,11 @@ public class Metod3 {
     }
 
     public static void addBook(String bookName) {
-        addBook(bookName, 0);
+        addBook(bookName, 0, 0);
     }
 
-    public static void addBook(String bookName, int pageCount) {
-        booksInfo = booksInfo + bookName + " - " + (pageCount > 0 ? pageCount : "N/A") + " стр.\n";
+    public static void addBook(String bookName, int pageCount, int priseBook) {
+        booksInfo = booksInfo + bookName + " - " + (pageCount > 0 ? pageCount : "N/A") + " стр.," + "Цена - " + (priseBook > 0 ? priseBook + " грн.": "Не оценена") + "\n";
     }
 
     public static void printInfo() {
